@@ -27,6 +27,21 @@ Usando nodejs para crear un api rest
 ## Endpoints
 
 
+### Update dependencies
+
+```bash
+npm install
+```
+
+
+
+### Running server
+
+```bash
+npm start
+```
+
+
 ### Categories
  - `GET    /categories`   - obtener todas las categorías
  - `POST   /category`     - crear nueva categoría
