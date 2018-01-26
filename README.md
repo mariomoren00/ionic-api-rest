@@ -2,6 +2,15 @@
 
 Conectando una aplicación en ionic con un servicio rest
 
+
+Dentro del directorio en consola agregaremos los comandos.
+
+### Directory
+
+```bash
+cd categoryapp
+```
+
 ### Update dependencies
 
 ```bash
@@ -24,8 +33,14 @@ ionic cordova run android --device
 # Blog API Category
 
 Usando nodejs para crear un api rest
-## Endpoints
 
+Dentro del directorio en consola agregaremos los comandos.
+
+### Directory
+
+```bash
+cd categoryapi
+```
 
 ### Update dependencies
 
@@ -33,14 +48,13 @@ Usando nodejs para crear un api rest
 npm install
 ```
 
-
-
 ### Running server
 
 ```bash
 npm start
 ```
 
+## Endpoints
 
 ### Categories
  - `GET    /categories`   - obtener todas las categorías
